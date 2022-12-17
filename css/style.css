@@ -1,0 +1,279 @@
+/* Global CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  section{
+    padding: 75px 0px;
+  }
+  p{
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 300;
+  }
+  .heading{
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: 1.4px;
+  }
+  .underline {
+    border-top: 5px solid rgba(0, 0, 0, 0.418);
+   width: 5%;
+   margin:10px auto;
+  }
+  .writing-part{
+    margin-bottom: 30px;
+  }
+  .box{
+    padding: 25px;
+  }
+  .sub-heading{
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 10px 0px;
+  }
+  .cstm-btn{
+    text-transform: uppercase;
+    padding: 10px;
+    width: 200px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  /* Layout */
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  .row {
+    width: 100%;
+    float: left;
+  }
+  [class*="col-"] {
+    float: left;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  
+  /* Header Part  */
+  header {
+    background-color: #87509c;
+    color: white;
+    text-align: center;
+  }
+  .logo-part{
+text-align: left;
+  }
+  nav{
+    padding: 20px 0px;
+  }
+  .menu-part{
+text-align: end;
+  }
+  .menu-part ul{
+padding: 5px 0px;
+
+  }
+  .menu-part li{
+    display: inline-block;
+    padding: 7px 10px;
+    transition: ease-in 0.5s;
+}
+  .menu-part li:hover{
+    background-color: #0000004b;
+    border-radius: 5px;
+  }
+  .menu-part li a{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+  }
+  .hero-part{
+    padding: 100px 150px;
+  }
+  .hero-part h1{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .hero-part button{
+    background-color: #EB7D4B;
+    color: #fff;
+  }
+  /* Service part  */
+#service {
+    background-color: #17C2A4;
+    color: white;
+    text-align: center;
+}
+#service .box img{
+  height: 100px; 
+}
+/* Team part */
+#team{
+    background-color: #E7F1F8;
+    color: #3C4761;
+    text-align: center;
+}
+#team .des{
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  color: #30bae7;
+}
+.team-icons{
+  margin-top: 30px;
+}
+.team-icons i {
+background-color: #bdd1df;
+color: #fff;
+padding: 10px;
+border-radius: 100%;
+width: 40px;
+}
+.team-icons i :hover {
+  background-color: #fff;
+  color: #bdd1df;
+  border-radius: 5px;
+}
+/* skill part */
+#skill{
+    background-color: #FFFFFF;
+    color: #3C4761;
+    text-align: center;
+}
+  #portfolio{
+    background-color: #FFDD99;
+    color: #393939;
+    text-align: center;
+  }
+  .portfolio-btn{
+    margin-top: 39px;
+  }
+  .portfolio-btn a button{
+    padding: 10px 20px;
+    background-color: #EBC985 !important;
+    
+     
+  }
+  
+  .portfolio-btn :hover {
+    background-color:#EBC985;
+    color: white;
+    /* font-size:18px;
+    font-weight: 600; 
+    border-radius: 5px; */
+  }
+  .portfolio-btn a {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+  }
+  #portfolio button{
+    background-color: #17C2A4;
+  }
+  #about{
+    background-color: #D74680;
+    color: white;
+    text-align: center;
+  }
+  .des{
+    color: #FFDD99;
+  }
+  #contact{
+    background-color:  #3c5499;
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+  form{
+    width: 50%;
+    margin: auto;
+  }
+   input,textarea{
+    display: block; 
+    padding: 10px 40px;
+    margin: 25px 20px;
+   color: white;
+  } 
+  .form1-text-part {
+    width: 50%;
+    float: left;
+  }
+  .form1-text-part input{
+    width: 98%;
+     background-color: #273A71;
+     color: white;
+     padding: 10px;
+  }
+  .form1-email-part{
+   width: 50%;
+   float: left;
+  }
+  .form1-email-part input{
+    width: 98%;
+    background-color:#273A71;
+    color: white;
+    padding: 10px;
+  }
+  textarea {
+    background-color: #273A71;
+    color: white;
+    width: 99%;
+  }
+  .row {
+    width: 100%;
+    float: left;
+}
+.text input {
+  padding: 15px 50px;
+  margin: auto;
+  background-color: #30bae7;
+  border-radius: 5px;
+}
+footer {
+  background-color: #344b8e;
+  width: 50px;
+  margin: auto;
+}
+
